@@ -1,0 +1,620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1630665144399712}
+  m_IsPrefabParent: 1
+--- !u!1 &1630665144399712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4194469334332488}
+  - component: {fileID: 33170370368834746}
+  - component: {fileID: 64613447967273534}
+  - component: {fileID: 23462206969042202}
+  m_Layer: 0
+  m_Name: TaxtureAnimationObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1805909322322368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4188258621758638}
+  - component: {fileID: 114382557116055626}
+  m_Layer: 0
+  m_Name: ImageController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4188258621758638
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805909322322368}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4194469334332488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4194469334332488
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630665144399712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4188258621758638}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23462206969042202
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630665144399712}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 99778ab1bcd9a8348bc0237b8deb336c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33170370368834746
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630665144399712}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!64 &64613447967273534
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1630665144399712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114382557116055626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1805909322322368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: "\u72B6\u614B\u9077\u79FB"
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 116
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayGetNext
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 92de740448c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: CurrentImage
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 10
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: Images
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          type: 10
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 2800000, guid: d78428d33208e2143bd02787d0f2723c, type: 3}
+          - {fileID: 2800000, guid: aa0204d22772555438735fe2a84664bc, type: 3}
+          - {fileID: 2800000, guid: 31aebbf0ca05c0645972f4ceacb9b97c, type: 3}
+          - {fileID: 2800000, guid: 5673f35c6ce4f8b4fb5f93063ef024ef, type: 3}
+          - {fileID: 2800000, guid: 95b9d438d58bb544d933702b9442e23f, type: 3}
+          - {fileID: 2800000, guid: 3f84e32d092509a4ebd473d7c5ce8d7b, type: 3}
+          - {fileID: 2800000, guid: ddb22f8db59c3784c8061c972e95f46d, type: 3}
+          - {fileID: 2800000, guid: 811e9ee100d454144ad8cfad9accfcdf, type: 3}
+          - {fileID: 2800000, guid: 8350f83825e7aee468f856f70f585b53, type: 3}
+          - {fileID: 2800000, guid: 37feb98881eeba34c95a35c3f543407e, type: 3}
+          - {fileID: 2800000, guid: a2bc9ad88d9c20545aa18fa07956e940, type: 3}
+          - {fileID: 2800000, guid: 826a3a18425b1e346bbceca20c23e669, type: 3}
+          - {fileID: 2800000, guid: 8c1e6d863795b30499a33ef197610700, type: 3}
+          - {fileID: 2800000, guid: 0ac758b832170764693836d50b48da05, type: 3}
+          - {fileID: 2800000, guid: 17cfa3272895ace4aad4e508c2b28820, type: 3}
+          - {fileID: 2800000, guid: 5fa6776ee9aef804f8a96c7022dbdece, type: 3}
+          - {fileID: 2800000, guid: e4426992e660d7a458df936a3e3fd2e9, type: 3}
+          - {fileID: 2800000, guid: a4a880d7e792838468e9836f28dd9f0f, type: 3}
+          - {fileID: 2800000, guid: aa29c854e43635945a030413b495941f, type: 3}
+          - {fileID: 2800000, guid: a9b946071bb51da488e504e85b550556, type: 3}
+          - {fileID: 2800000, guid: 5baa70feedf58004f863ede194cc66db, type: 3}
+          - {fileID: 2800000, guid: 9a48b9a429418064e85caf6dc8024f6f, type: 3}
+          - {fileID: 2800000, guid: b12317a981fd453428d6068cc7d32b38, type: 3}
+          - {fileID: 2800000, guid: d62f81496d41868429a296298fc4044e, type: 3}
+          - {fileID: 2800000, guid: 6a496993bb362a94c8df533f6e0e4919, type: 3}
+          - {fileID: 2800000, guid: 638331ab714046d45b9b77477820452f, type: 3}
+          - {fileID: 2800000, guid: 355d220536bbf904aa9e7a661fd0be20, type: 3}
+          - {fileID: 2800000, guid: b599a25ac4e60584d92773a9b66a7eef, type: 3}
+          - {fileID: 2800000, guid: d29423f4d8cf75a46ad1708589a7fe95, type: 3}
+          - {fileID: 2800000, guid: 93d572c7de37f724789660484f458c99, type: 3}
+          - {fileID: 2800000, guid: 5570dd9e0309a6f42915f661940cad75, type: 3}
+          - {fileID: 2800000, guid: 719f8a80c755c2b46961b9522fb1323b, type: 3}
+          - {fileID: 2800000, guid: bb11580e5d8787948b5bd6e6556cb887, type: 3}
+          - {fileID: 2800000, guid: 7f9fccac6600ffd40bc079cab4ec0853, type: 3}
+          - {fileID: 2800000, guid: 125c0c0a21920b24e953921ab4f8279e, type: 3}
+          - {fileID: 2800000, guid: c1fda14ea74001846987b99acf7bdd96, type: 3}
+          - {fileID: 2800000, guid: 1fd0548b5ac570747bd67e37825ce16b, type: 3}
+          - {fileID: 2800000, guid: e572b7849fa9d754fb6a4709a4774b9c, type: 3}
+          - {fileID: 2800000, guid: b8bfd16ca6bcba34c8bc4efae9aff708, type: 3}
+          - {fileID: 2800000, guid: 88bd9960ff597154fbfd1fce738bf654, type: 3}
+          - {fileID: 2800000, guid: 40f1cce58c927cf41b313aea93d844e9, type: 3}
+          - {fileID: 2800000, guid: bac6fc0a6289ac7488c717703f7b0429, type: 3}
+          - {fileID: 2800000, guid: f8ba97c6e19d41b4ea698ba4dd6b6ce9, type: 3}
+          - {fileID: 2800000, guid: e648b7216efd3a14a96c7ec5134787b3, type: 3}
+          - {fileID: 2800000, guid: b5b9aa7bdc0588041aaa22a57310cd6c, type: 3}
+          - {fileID: 2800000, guid: da567f1eeb1516f4b830bcb035b1d20a, type: 3}
+          - {fileID: 2800000, guid: 2e9573f437a2aa94995d3d360954fa3b, type: 3}
+          - {fileID: 2800000, guid: c93d2adb0aba60949a46e79bc2ec7bce, type: 3}
+          - {fileID: 2800000, guid: 5e4b68fff7d597e4399ed4c6ce63e195, type: 3}
+          - {fileID: 2800000, guid: d2283bdd8a860fb44b15b72aa1b97dca, type: 3}
+          - {fileID: 2800000, guid: f61fd1939e0d3e345bc2b96c123df9f1, type: 3}
+          - {fileID: 2800000, guid: c80af699d62f7084d847afefa4b19aae, type: 3}
+          - {fileID: 2800000, guid: 2d792eae436a37d49914b1f10686152c, type: 3}
+          - {fileID: 2800000, guid: 3120f74e978bcf5498bd0c3732c1da42, type: 3}
+          - {fileID: 2800000, guid: 9838510d039ff364b91e7057452248e1, type: 3}
+          - {fileID: 2800000, guid: 46c0488dcecad3b45b2096b82030bf17, type: 3}
+          - {fileID: 2800000, guid: 149f164f5389163498cf8d12eefa312c, type: 3}
+          - {fileID: 2800000, guid: c8bf169f1d1677045a53d7ffca8424fa, type: 3}
+          - {fileID: 2800000, guid: b8e3cf992c9fd8844ba9b5aa7905ec6c, type: 3}
+          - {fileID: 2800000, guid: b8b9ac87cd211bb438d93c202084ef65, type: 3}
+          - {fileID: 2800000, guid: 8aec3823f25a56b4ca267bb0222645a9, type: 3}
+          - {fileID: 2800000, guid: ec749ded5a6f37b4ab2ec24ef2db15ba, type: 3}
+          - {fileID: 2800000, guid: 0cc129704ea00f0449e11061c592affd, type: 3}
+          - {fileID: 2800000, guid: 324dddddae7f67841bfa8d56b8a94b7a, type: 3}
+          - {fileID: 2800000, guid: b6af1ce2798c0154da7ff12a8482532c, type: 3}
+          - {fileID: 2800000, guid: e443a502ba2a3bd4e993566b2b53d66d, type: 3}
+          - {fileID: 2800000, guid: a906de94042d4a844afb1afdc0be0c21, type: 3}
+          - {fileID: 2800000, guid: a906de94042d4a844afb1afdc0be0c21, type: 3}
+          - {fileID: 2800000, guid: 36cfe0f8b51bff841b43bfd765848fd0, type: 3}
+          - {fileID: 2800000, guid: a838d70d414421542929d18700970704, type: 3}
+          - {fileID: 2800000, guid: e09537f574f841a478ee48b1508afebe, type: 3}
+          - {fileID: 2800000, guid: 00f641031028ec54b9adc912f82e70b3, type: 3}
+          - {fileID: 2800000, guid: 19baf21b35293114cb1a478bfbe40b38, type: 3}
+          - {fileID: 2800000, guid: d088005399c01a644b112d0bddb89aa8, type: 3}
+          - {fileID: 2800000, guid: 6e69b925b888f3a4cad63e42009f6838, type: 3}
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.1
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 75
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        - FINISHED
+        byteData: 01
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 290000001000000010000000170000001700000027000000100000000f0000001700000001000000
+        paramName:
+        - array
+        - startIndex
+        - endIndex
+        - loopEvent
+        - finishedEvent
+        - result
+        - currentIndex
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 00000000000000000100000000000000010000000000000002000000000000000200000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000000000000000000001000000
+    - name: State 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 244.875
+        y: 112.75
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 1
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetMaterialTexture
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 7227c600
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 1630665144399712}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: 
+          value: {fileID: 0}
+        - useVariable: 1
+          name: CurrentImage
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          typeName: UnityEngine.Object
+          value: {fileID: 0}
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000010000000200000001200000021000000
+        paramName:
+        - gameObject
+        - materialIndex
+        - material
+        - namedTexture
+        - texture
+        paramDataPos: 0000000000000000000000000000000001000000
+        paramByteDataSize: 0000000000000000000000000000000000000000
+    events:
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    globalTransitions: []
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables:
+      - useVariable: 1
+        name: CurrentImage
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: UnityEngine.Object
+        value: {fileID: 0}
+      arrayVariables:
+      - useVariable: 1
+        name: Images
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        type: 10
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences:
+        - {fileID: 2800000, guid: d78428d33208e2143bd02787d0f2723c, type: 3}
+        - {fileID: 2800000, guid: aa0204d22772555438735fe2a84664bc, type: 3}
+        - {fileID: 2800000, guid: 31aebbf0ca05c0645972f4ceacb9b97c, type: 3}
+        - {fileID: 2800000, guid: 5673f35c6ce4f8b4fb5f93063ef024ef, type: 3}
+        - {fileID: 2800000, guid: 95b9d438d58bb544d933702b9442e23f, type: 3}
+        - {fileID: 2800000, guid: 3f84e32d092509a4ebd473d7c5ce8d7b, type: 3}
+        - {fileID: 2800000, guid: ddb22f8db59c3784c8061c972e95f46d, type: 3}
+        - {fileID: 2800000, guid: 811e9ee100d454144ad8cfad9accfcdf, type: 3}
+        - {fileID: 2800000, guid: 8350f83825e7aee468f856f70f585b53, type: 3}
+        - {fileID: 2800000, guid: 37feb98881eeba34c95a35c3f543407e, type: 3}
+        - {fileID: 2800000, guid: a2bc9ad88d9c20545aa18fa07956e940, type: 3}
+        - {fileID: 2800000, guid: 826a3a18425b1e346bbceca20c23e669, type: 3}
+        - {fileID: 2800000, guid: 8c1e6d863795b30499a33ef197610700, type: 3}
+        - {fileID: 2800000, guid: 0ac758b832170764693836d50b48da05, type: 3}
+        - {fileID: 2800000, guid: 17cfa3272895ace4aad4e508c2b28820, type: 3}
+        - {fileID: 2800000, guid: 5fa6776ee9aef804f8a96c7022dbdece, type: 3}
+        - {fileID: 2800000, guid: e4426992e660d7a458df936a3e3fd2e9, type: 3}
+        - {fileID: 2800000, guid: a4a880d7e792838468e9836f28dd9f0f, type: 3}
+        - {fileID: 2800000, guid: aa29c854e43635945a030413b495941f, type: 3}
+        - {fileID: 2800000, guid: a9b946071bb51da488e504e85b550556, type: 3}
+        - {fileID: 2800000, guid: 5baa70feedf58004f863ede194cc66db, type: 3}
+        - {fileID: 2800000, guid: 9a48b9a429418064e85caf6dc8024f6f, type: 3}
+        - {fileID: 2800000, guid: b12317a981fd453428d6068cc7d32b38, type: 3}
+        - {fileID: 2800000, guid: d62f81496d41868429a296298fc4044e, type: 3}
+        - {fileID: 2800000, guid: 6a496993bb362a94c8df533f6e0e4919, type: 3}
+        - {fileID: 2800000, guid: 638331ab714046d45b9b77477820452f, type: 3}
+        - {fileID: 2800000, guid: 355d220536bbf904aa9e7a661fd0be20, type: 3}
+        - {fileID: 2800000, guid: b599a25ac4e60584d92773a9b66a7eef, type: 3}
+        - {fileID: 2800000, guid: d29423f4d8cf75a46ad1708589a7fe95, type: 3}
+        - {fileID: 2800000, guid: 93d572c7de37f724789660484f458c99, type: 3}
+        - {fileID: 2800000, guid: 5570dd9e0309a6f42915f661940cad75, type: 3}
+        - {fileID: 2800000, guid: 719f8a80c755c2b46961b9522fb1323b, type: 3}
+        - {fileID: 2800000, guid: bb11580e5d8787948b5bd6e6556cb887, type: 3}
+        - {fileID: 2800000, guid: 7f9fccac6600ffd40bc079cab4ec0853, type: 3}
+        - {fileID: 2800000, guid: 125c0c0a21920b24e953921ab4f8279e, type: 3}
+        - {fileID: 2800000, guid: c1fda14ea74001846987b99acf7bdd96, type: 3}
+        - {fileID: 2800000, guid: 1fd0548b5ac570747bd67e37825ce16b, type: 3}
+        - {fileID: 2800000, guid: e572b7849fa9d754fb6a4709a4774b9c, type: 3}
+        - {fileID: 2800000, guid: b8bfd16ca6bcba34c8bc4efae9aff708, type: 3}
+        - {fileID: 2800000, guid: 88bd9960ff597154fbfd1fce738bf654, type: 3}
+        - {fileID: 2800000, guid: 40f1cce58c927cf41b313aea93d844e9, type: 3}
+        - {fileID: 2800000, guid: bac6fc0a6289ac7488c717703f7b0429, type: 3}
+        - {fileID: 2800000, guid: f8ba97c6e19d41b4ea698ba4dd6b6ce9, type: 3}
+        - {fileID: 2800000, guid: e648b7216efd3a14a96c7ec5134787b3, type: 3}
+        - {fileID: 2800000, guid: b5b9aa7bdc0588041aaa22a57310cd6c, type: 3}
+        - {fileID: 2800000, guid: da567f1eeb1516f4b830bcb035b1d20a, type: 3}
+        - {fileID: 2800000, guid: 2e9573f437a2aa94995d3d360954fa3b, type: 3}
+        - {fileID: 2800000, guid: c93d2adb0aba60949a46e79bc2ec7bce, type: 3}
+        - {fileID: 2800000, guid: 5e4b68fff7d597e4399ed4c6ce63e195, type: 3}
+        - {fileID: 2800000, guid: d2283bdd8a860fb44b15b72aa1b97dca, type: 3}
+        - {fileID: 2800000, guid: f61fd1939e0d3e345bc2b96c123df9f1, type: 3}
+        - {fileID: 2800000, guid: c80af699d62f7084d847afefa4b19aae, type: 3}
+        - {fileID: 2800000, guid: 2d792eae436a37d49914b1f10686152c, type: 3}
+        - {fileID: 2800000, guid: 3120f74e978bcf5498bd0c3732c1da42, type: 3}
+        - {fileID: 2800000, guid: 9838510d039ff364b91e7057452248e1, type: 3}
+        - {fileID: 2800000, guid: 46c0488dcecad3b45b2096b82030bf17, type: 3}
+        - {fileID: 2800000, guid: 149f164f5389163498cf8d12eefa312c, type: 3}
+        - {fileID: 2800000, guid: c8bf169f1d1677045a53d7ffca8424fa, type: 3}
+        - {fileID: 2800000, guid: b8e3cf992c9fd8844ba9b5aa7905ec6c, type: 3}
+        - {fileID: 2800000, guid: b8b9ac87cd211bb438d93c202084ef65, type: 3}
+        - {fileID: 2800000, guid: 8aec3823f25a56b4ca267bb0222645a9, type: 3}
+        - {fileID: 2800000, guid: ec749ded5a6f37b4ab2ec24ef2db15ba, type: 3}
+        - {fileID: 2800000, guid: 0cc129704ea00f0449e11061c592affd, type: 3}
+        - {fileID: 2800000, guid: 324dddddae7f67841bfa8d56b8a94b7a, type: 3}
+        - {fileID: 2800000, guid: b6af1ce2798c0154da7ff12a8482532c, type: 3}
+        - {fileID: 2800000, guid: e443a502ba2a3bd4e993566b2b53d66d, type: 3}
+        - {fileID: 2800000, guid: a906de94042d4a844afb1afdc0be0c21, type: 3}
+        - {fileID: 2800000, guid: a906de94042d4a844afb1afdc0be0c21, type: 3}
+        - {fileID: 2800000, guid: 36cfe0f8b51bff841b43bfd765848fd0, type: 3}
+        - {fileID: 2800000, guid: a838d70d414421542929d18700970704, type: 3}
+        - {fileID: 2800000, guid: e09537f574f841a478ee48b1508afebe, type: 3}
+        - {fileID: 2800000, guid: 00f641031028ec54b9adc912f82e70b3, type: 3}
+        - {fileID: 2800000, guid: 19baf21b35293114cb1a478bfbe40b38, type: 3}
+        - {fileID: 2800000, guid: d088005399c01a644b112d0bddb89aa8, type: 3}
+        - {fileID: 2800000, guid: 6e69b925b888f3a4cad63e42009f6838, type: 3}
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 3
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 0
